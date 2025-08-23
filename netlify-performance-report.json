@@ -1,0 +1,85 @@
+{
+  "summary": {
+    "totalTests": 8,
+    "successfulTests": 2,
+    "failedTests": 6,
+    "successRate": 25,
+    "averageResponseTime": 13,
+    "totalDuration": 6087
+  },
+  "details": [
+    {
+      "name": "Frontend",
+      "url": "http://localhost:3000",
+      "status": 200,
+      "duration": 23,
+      "success": true,
+      "size": "588",
+      "timestamp": "2025-08-14T02:41:18.082Z"
+    },
+    {
+      "name": "Health Check",
+      "url": "http://localhost:3000/.netlify/functions/health",
+      "status": 404,
+      "duration": 4,
+      "success": false,
+      "size": "78",
+      "timestamp": "2025-08-14T02:41:19.094Z"
+    },
+    {
+      "name": "Stats API",
+      "url": "http://localhost:3000/.netlify/functions/stats",
+      "status": 404,
+      "duration": 5,
+      "success": false,
+      "size": "77",
+      "timestamp": "2025-08-14T02:41:20.104Z"
+    },
+    {
+      "name": "Validation API",
+      "url": "http://localhost:3000/.netlify/functions/validate-constraints",
+      "status": 404,
+      "duration": 4,
+      "success": false,
+      "size": "93",
+      "timestamp": "2025-08-14T02:41:21.113Z"
+    },
+    {
+      "name": "Optimization API",
+      "url": "http://localhost:3000/.netlify/functions/optimize",
+      "status": 404,
+      "duration": 4,
+      "success": false,
+      "size": "81",
+      "timestamp": "2025-08-14T02:41:22.125Z"
+    },
+    {
+      "name": "Health Check",
+      "url": "http://localhost:3000/.netlify/functions/health",
+      "status": 404,
+      "duration": 4,
+      "success": false,
+      "size": "78",
+      "timestamp": "2025-08-14T02:41:23.134Z"
+    },
+    {
+      "name": "Stats API",
+      "url": "http://localhost:3000/.netlify/functions/stats",
+      "status": 404,
+      "duration": 4,
+      "success": false,
+      "size": "77",
+      "timestamp": "2025-08-14T02:41:23.138Z"
+    },
+    {
+      "name": "Frontend",
+      "url": "http://localhost:3000",
+      "status": 200,
+      "duration": 2,
+      "success": true,
+      "size": "588",
+      "timestamp": "2025-08-14T02:41:23.140Z"
+    }
+  ],
+  "timestamp": "2025-08-14T02:41:24.146Z"
+}

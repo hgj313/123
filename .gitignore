@@ -1,0 +1,3870 @@
+# 依赖
+/node_modules
+/client/node_modules
+/server/node_modules
+
+# 构建产物
+/build
+/client/build
+/dist
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# 数据库文件
+/database/*.json
+/database/backups/
+/server/database/backups/
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 历史版本
+/hgj_steel_system.v2-master/
+
+# 临时文件
+.tmp
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 编辑器和IDE配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 忽略旧版本的代码
+/hgj_steel_system.v2-master/
+/过程学习积累/
+
+# 临时文件
+.tmp
+.DS_Store
+Thumbs.db

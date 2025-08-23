@@ -1,0 +1,2142 @@
+{
+  "designSteels": [
+    {
+      "id": "steel_1755143657703_0",
+      "length": 2386,
+      "quantity": 3,
+      "crossSection": 2829.61,
+      "componentNumber": "GL1-18",
+      "specification": "[]150*5",
+      "partNumber": "L75",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_1",
+      "length": 2233,
+      "quantity": 3,
+      "crossSection": 2829.61,
+      "componentNumber": "GL1-19",
+      "specification": "[]150*5",
+      "partNumber": "L76",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_2",
+      "length": 2552,
+      "quantity": 3,
+      "crossSection": 2829.61,
+      "componentNumber": "GL1-34",
+      "specification": "[]150*5",
+      "partNumber": "L77",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_3",
+      "length": 2686,
+      "quantity": 3,
+      "crossSection": 2829.61,
+      "componentNumber": "GL1-35",
+      "specification": "[]150*5",
+      "partNumber": "L78",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_4",
+      "length": 2687,
+      "quantity": 3,
+      "crossSection": 2829.61,
+      "componentNumber": "GL1-36",
+      "specification": "[]150*5",
+      "partNumber": "L79",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_5",
+      "length": 2185,
+      "quantity": 3,
+      "crossSection": 2829.61,
+      "componentNumber": "GL1-37",
+      "specification": "[]150*5",
+      "partNumber": "L80",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_6",
+      "length": 1465,
+      "quantity": 3,
+      "crossSection": 2829.61,
+      "componentNumber": "GL1-38",
+      "specification": "[]150*5",
+      "partNumber": "L81",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_7",
+      "length": 2223,
+      "quantity": 3,
+      "crossSection": 2829.61,
+      "componentNumber": "GL1-39",
+      "specification": "[]150*5",
+      "partNumber": "L82",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_8",
+      "length": 2688,
+      "quantity": 3,
+      "crossSection": 2829.61,
+      "componentNumber": "GL1-40",
+      "specification": "[]150*5",
+      "partNumber": "L83",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_9",
+      "length": 2687,
+      "quantity": 3,
+      "crossSection": 2829.61,
+      "componentNumber": "GL1-41",
+      "specification": "[]150*5",
+      "partNumber": "L84",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_10",
+      "length": 2179,
+      "quantity": 6,
+      "crossSection": 2829.61,
+      "componentNumber": "GL2-39",
+      "specification": "[]150*5",
+      "partNumber": "L70",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_11",
+      "length": 2180,
+      "quantity": 6,
+      "crossSection": 2829.61,
+      "componentNumber": "GL2-39",
+      "specification": "[]150*5",
+      "partNumber": "L70",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_12",
+      "length": 2307,
+      "quantity": 3,
+      "crossSection": 2829.61,
+      "componentNumber": "GL2-40",
+      "specification": "[]150*5",
+      "partNumber": "L71",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_13",
+      "length": 1820,
+      "quantity": 3,
+      "crossSection": 2829.61,
+      "componentNumber": "GL2-41",
+      "specification": "[]150*5",
+      "partNumber": "L72",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_14",
+      "length": 861,
+      "quantity": 3,
+      "crossSection": 2829.61,
+      "componentNumber": "GL2-42",
+      "specification": "[]150*5",
+      "partNumber": "L73",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_15",
+      "length": 1101,
+      "quantity": 3,
+      "crossSection": 2829.61,
+      "componentNumber": "GL2-43",
+      "specification": "[]150*5",
+      "partNumber": "L74",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_16",
+      "length": 1993,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-1",
+      "specification": "[]200*150*8",
+      "partNumber": "L19",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_17",
+      "length": 1917,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-2",
+      "specification": "[]200*150*8",
+      "partNumber": "L20",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_18",
+      "length": 2338,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-3",
+      "specification": "[]200*150*8",
+      "partNumber": "L21",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_19",
+      "length": 1517,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-4",
+      "specification": "[]200*150*8",
+      "partNumber": "L22",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_20",
+      "length": 1132,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-5",
+      "specification": "[]200*150*8",
+      "partNumber": "L23",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_21",
+      "length": 2408,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-6",
+      "specification": "[]200*150*8",
+      "partNumber": "L24",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_22",
+      "length": 2531,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-7",
+      "specification": "[]200*150*8",
+      "partNumber": "L25",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_23",
+      "length": 2090,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-8",
+      "specification": "[]200*150*8",
+      "partNumber": "L26",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_24",
+      "length": 2314,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-9",
+      "specification": "[]200*150*8",
+      "partNumber": "L27",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_25",
+      "length": 1391,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-10",
+      "specification": "[]200*150*8",
+      "partNumber": "L28",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_26",
+      "length": 1947,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-11",
+      "specification": "[]200*150*8",
+      "partNumber": "L32",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_27",
+      "length": 1959,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-12",
+      "specification": "[]200*150*8",
+      "partNumber": "L33",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_28",
+      "length": 2025,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-13",
+      "specification": "[]200*150*8",
+      "partNumber": "L34",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_29",
+      "length": 2120,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-14",
+      "specification": "[]200*150*8",
+      "partNumber": "L35",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_30",
+      "length": 2080,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-15",
+      "specification": "[]200*150*8",
+      "partNumber": "L36",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_31",
+      "length": 1952,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-16",
+      "specification": "[]200*150*8",
+      "partNumber": "L37",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_32",
+      "length": 2418,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-17",
+      "specification": "[]200*150*8",
+      "partNumber": "L52",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_33",
+      "length": 2750,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-18",
+      "specification": "[]200*150*8",
+      "partNumber": "L53",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_34",
+      "length": 2751,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-18",
+      "specification": "[]200*150*8",
+      "partNumber": "L53",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_35",
+      "length": 3534,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-19",
+      "specification": "[]200*150*8",
+      "partNumber": "L54",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_36",
+      "length": 915,
+      "quantity": 5,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-21",
+      "specification": "[]200*150*8",
+      "partNumber": "L2",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_37",
+      "length": 2179,
+      "quantity": 2,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-24",
+      "specification": "[]200*150*8",
+      "partNumber": "L5",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_38",
+      "length": 2180,
+      "quantity": 2,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-24",
+      "specification": "[]200*150*8",
+      "partNumber": "L5",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_39",
+      "length": 2307,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-25",
+      "specification": "[]200*150*8",
+      "partNumber": "L6",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_40",
+      "length": 2350,
+      "quantity": 2,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-26",
+      "specification": "[]200*150*8",
+      "partNumber": "L7",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_41",
+      "length": 2351,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-26",
+      "specification": "[]200*150*8",
+      "partNumber": "L7",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_42",
+      "length": 1820,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-28",
+      "specification": "[]200*150*8",
+      "partNumber": "L9",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_43",
+      "length": 2928,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-29",
+      "specification": "[]200*150*8",
+      "partNumber": "L10",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_44",
+      "length": 1987,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-31",
+      "specification": "[]200*150*8",
+      "partNumber": "L12",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_45",
+      "length": 1958,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-32",
+      "specification": "[]200*150*8",
+      "partNumber": "L13",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_46",
+      "length": 861,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-33",
+      "specification": "[]200*150*8",
+      "partNumber": "L14",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_47",
+      "length": 2203,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-34",
+      "specification": "[]200*150*8",
+      "partNumber": "L15",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_48",
+      "length": 1101,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-35",
+      "specification": "[]200*150*8",
+      "partNumber": "L16",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_49",
+      "length": 1132,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-36",
+      "specification": "[]200*150*8",
+      "partNumber": "L17",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_50",
+      "length": 2130,
+      "quantity": 1,
+      "crossSection": 5163.8,
+      "componentNumber": "GL2-37",
+      "specification": "[]200*150*8",
+      "partNumber": "L18",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_51",
+      "length": 2388,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-1",
+      "specification": "[]350*250*10",
+      "partNumber": "L29",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_52",
+      "length": 2237,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-2",
+      "specification": "[]350*250*10",
+      "partNumber": "L30",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_53",
+      "length": 9508,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-3",
+      "specification": "[]350*250*10",
+      "partNumber": "L31",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_54",
+      "length": 1500,
+      "quantity": 2,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-4",
+      "specification": "[]350*250*10",
+      "partNumber": "L55",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_55",
+      "length": 1465,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-5",
+      "specification": "[]350*250*10",
+      "partNumber": "L56",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_56",
+      "length": 2237,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-6",
+      "specification": "[]350*250*10",
+      "partNumber": "L57",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_57",
+      "length": 2238,
+      "quantity": 2,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-6",
+      "specification": "[]350*250*10",
+      "partNumber": "L57",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_58",
+      "length": 2226,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-7",
+      "specification": "[]350*250*10",
+      "partNumber": "L58",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_59",
+      "length": 2246,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-8",
+      "specification": "[]350*250*10",
+      "partNumber": "L59",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_60",
+      "length": 2244,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-9",
+      "specification": "[]350*250*10",
+      "partNumber": "L60",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_61",
+      "length": 2252,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-10",
+      "specification": "[]350*250*10",
+      "partNumber": "L61",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_62",
+      "length": 2261,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-11",
+      "specification": "[]350*250*10",
+      "partNumber": "L62",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_63",
+      "length": 2545,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-12",
+      "specification": "[]350*250*10",
+      "partNumber": "L63",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_64",
+      "length": 2534,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-13",
+      "specification": "[]350*250*10",
+      "partNumber": "L64",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_65",
+      "length": 2553,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-14",
+      "specification": "[]350*250*10",
+      "partNumber": "L65",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_66",
+      "length": 2011,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-15",
+      "specification": "[]350*250*10",
+      "partNumber": "L66",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_67",
+      "length": 1815,
+      "quantity": 2,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-16",
+      "specification": "[]350*250*10",
+      "partNumber": "L67",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_68",
+      "length": 1630,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-17",
+      "specification": "[]350*250*10",
+      "partNumber": "L68",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_69",
+      "length": 9692,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-20",
+      "specification": "[]350*250*10",
+      "partNumber": "L38",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_70",
+      "length": 10601,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-21",
+      "specification": "[]350*250*10",
+      "partNumber": "L39",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_71",
+      "length": 7111,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-22",
+      "specification": "[]350*250*10",
+      "partNumber": "L40",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_72",
+      "length": 4988,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-23",
+      "specification": "[]350*250*10",
+      "partNumber": "L41",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_73",
+      "length": 2565,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-24",
+      "specification": "[]350*250*10",
+      "partNumber": "L42",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_74",
+      "length": 2687,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-25",
+      "specification": "[]350*250*10",
+      "partNumber": "L43",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_75",
+      "length": 2688,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-26",
+      "specification": "[]350*250*10",
+      "partNumber": "L44",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_76",
+      "length": 2188,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-27",
+      "specification": "[]350*250*10",
+      "partNumber": "L45",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_77",
+      "length": 1466,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-28",
+      "specification": "[]350*250*10",
+      "partNumber": "L46",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_78",
+      "length": 2224,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-29",
+      "specification": "[]350*250*10",
+      "partNumber": "L47",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_79",
+      "length": 2689,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-30",
+      "specification": "[]350*250*10",
+      "partNumber": "L48",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_80",
+      "length": 2689,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-31",
+      "specification": "[]350*250*10",
+      "partNumber": "L49",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_81",
+      "length": 8707,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-32",
+      "specification": "[]350*250*10",
+      "partNumber": "L50",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_82",
+      "length": 11653,
+      "quantity": 1,
+      "crossSection": 11318.44,
+      "componentNumber": "GL1-33",
+      "specification": "[]350*250*10",
+      "partNumber": "L51",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_83",
+      "length": 7907,
+      "quantity": 17,
+      "crossSection": 14378.55,
+      "componentNumber": "GZ-16",
+      "specification": "P320*320*12",
+      "partNumber": "Z1",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    },
+    {
+      "id": "steel_1755143657703_84",
+      "length": 7907,
+      "quantity": 1,
+      "crossSection": 14378.55,
+      "componentNumber": "GZ-17",
+      "specification": "P320*320*12",
+      "partNumber": "Z1",
+      "updatedAt": "2025-08-14T03:54:17.706Z",
+      "createdAt": "2025-08-14T03:54:17.706Z"
+    }
+  ],
+  "moduleSteels": [
+    {
+      "id": "default_1",
+      "name": "12米标准钢材",
+      "length": 12000,
+      "createdAt": "2025-08-12T09:24:30.911Z",
+      "updatedAt": "2025-08-12T09:24:30.912Z"
+    },
+    {
+      "id": "default_2",
+      "name": "9米标准钢材",
+      "length": 9000,
+      "createdAt": "2025-08-12T09:24:30.912Z",
+      "updatedAt": "2025-08-12T09:24:30.912Z"
+    },
+    {
+      "id": "default_3",
+      "name": "6米标准钢材",
+      "length": 6000,
+      "createdAt": "2025-08-12T09:24:30.912Z",
+      "updatedAt": "2025-08-12T09:24:30.912Z"
+    }
+  ],
+  "optimizationTasks": [
+    {
+      "id": "task_1754991123346_3nx3w33cp",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 95,
+      "startTime": "2025-08-12T09:32:03.346Z",
+      "endTime": "2025-08-12T09:32:03.441Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 2,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300000,
+          "maxWeldingSegments": 2
+        }
+      },
+      "createdAt": "2025-08-12T09:32:03.346Z",
+      "updatedAt": "2025-08-12T09:32:03.441Z"
+    },
+    {
+      "id": "task_1754991124967_pstef68tp",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 66,
+      "startTime": "2025-08-12T09:32:04.967Z",
+      "endTime": "2025-08-12T09:32:05.033Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 2,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300000,
+          "maxWeldingSegments": 2
+        }
+      },
+      "createdAt": "2025-08-12T09:32:04.967Z",
+      "updatedAt": "2025-08-12T09:32:05.033Z"
+    },
+    {
+      "id": "task_1754991129858_fqidgymjj",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 114,
+      "startTime": "2025-08-12T09:32:09.858Z",
+      "endTime": "2025-08-12T09:32:09.972Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 2,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300000,
+          "maxWeldingSegments": 2
+        }
+      },
+      "createdAt": "2025-08-12T09:32:09.858Z",
+      "updatedAt": "2025-08-12T09:32:09.972Z"
+    },
+    {
+      "id": "task_1754991131207_9dr95nu10",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 109,
+      "startTime": "2025-08-12T09:32:11.207Z",
+      "endTime": "2025-08-12T09:32:11.316Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 2,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300000,
+          "maxWeldingSegments": 2
+        }
+      },
+      "createdAt": "2025-08-12T09:32:11.207Z",
+      "updatedAt": "2025-08-12T09:32:11.316Z"
+    },
+    {
+      "id": "task_1754991270464_tk1fcjvm5",
+      "status": "failed",
+      "progress": 30,
+      "message": "优化失败: 输入数据验证失败",
+      "results": null,
+      "error": "输入数据验证失败",
+      "executionTime": 6,
+      "startTime": "2025-08-12T09:34:30.464Z",
+      "endTime": "2025-08-12T09:34:30.470Z",
+      "inputData": {
+        "designSteelsCount": 0,
+        "moduleSteelsCount": 0,
+        "constraints": {
+          "maxWaste": 5
+        }
+      },
+      "createdAt": "2025-08-12T09:34:30.464Z",
+      "updatedAt": "2025-08-12T09:34:30.470Z"
+    },
+    {
+      "id": "task_1754991357104_muupkongr",
+      "status": "failed",
+      "progress": 30,
+      "message": "优化失败: 输入数据验证失败",
+      "results": null,
+      "error": "输入数据验证失败",
+      "executionTime": 5,
+      "startTime": "2025-08-12T09:35:57.104Z",
+      "endTime": "2025-08-12T09:35:57.109Z",
+      "inputData": {
+        "designSteelsCount": 0,
+        "moduleSteelsCount": 0,
+        "constraints": {
+          "maxWaste": 5
+        }
+      },
+      "createdAt": "2025-08-12T09:35:57.104Z",
+      "updatedAt": "2025-08-12T09:35:57.109Z"
+    },
+    {
+      "id": "task_1754991566098_k421zehq4",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 39,
+      "startTime": "2025-08-12T09:39:26.098Z",
+      "endTime": "2025-08-12T09:39:26.137Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 2,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300000,
+          "maxWeldingSegments": 2
+        }
+      },
+      "createdAt": "2025-08-12T09:39:26.098Z",
+      "updatedAt": "2025-08-12T09:39:26.137Z"
+    },
+    {
+      "id": "task_1754992735310_2o76vvdd0",
+      "status": "failed",
+      "progress": 30,
+      "message": "优化失败: 输入数据验证失败",
+      "results": null,
+      "error": "输入数据验证失败",
+      "executionTime": 13,
+      "startTime": "2025-08-12T09:58:55.310Z",
+      "endTime": "2025-08-12T09:58:55.323Z",
+      "inputData": {
+        "designSteelsCount": 0,
+        "moduleSteelsCount": 0,
+        "constraints": {}
+      },
+      "createdAt": "2025-08-12T09:58:55.310Z",
+      "updatedAt": "2025-08-12T09:58:55.323Z"
+    },
+    {
+      "id": "task_1754993021692_ezrvimccs",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 70,
+      "startTime": "2025-08-12T10:03:41.692Z",
+      "endTime": "2025-08-12T10:03:41.762Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 2,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300000,
+          "maxWeldingSegments": 2
+        }
+      },
+      "createdAt": "2025-08-12T10:03:41.692Z",
+      "updatedAt": "2025-08-12T10:03:41.762Z"
+    },
+    {
+      "id": "task_1754996419565_3ec94jppv",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 45,
+      "startTime": "2025-08-12T11:00:19.565Z",
+      "endTime": "2025-08-12T11:00:19.610Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 2,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300000,
+          "maxWeldingSegments": 2
+        }
+      },
+      "createdAt": "2025-08-12T11:00:19.565Z",
+      "updatedAt": "2025-08-12T11:00:19.610Z"
+    },
+    {
+      "id": "task_1754996442562_qbob8vy9r",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 32,
+      "startTime": "2025-08-12T11:00:42.562Z",
+      "endTime": "2025-08-12T11:00:42.594Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 2,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300000,
+          "maxWeldingSegments": 1
+        }
+      },
+      "createdAt": "2025-08-12T11:00:42.562Z",
+      "updatedAt": "2025-08-12T11:00:42.594Z"
+    },
+    {
+      "id": "task_1755096417361_4z6aztqzw",
+      "status": "failed",
+      "progress": 30,
+      "message": "优化失败: 输入数据验证失败",
+      "results": null,
+      "error": "输入数据验证失败",
+      "executionTime": 14,
+      "startTime": "2025-08-13T14:46:57.362Z",
+      "endTime": "2025-08-13T14:46:57.376Z",
+      "inputData": {
+        "designSteelsCount": 0,
+        "moduleSteelsCount": 0,
+        "constraints": {}
+      },
+      "createdAt": "2025-08-13T14:46:57.362Z",
+      "updatedAt": "2025-08-13T14:46:57.376Z"
+    },
+    {
+      "id": "task_1755096932618_8truobocy",
+      "status": "failed",
+      "progress": 30,
+      "message": "优化失败: 输入数据验证失败",
+      "results": null,
+      "error": "输入数据验证失败",
+      "executionTime": 7,
+      "startTime": "2025-08-13T14:55:32.618Z",
+      "endTime": "2025-08-13T14:55:32.625Z",
+      "inputData": {
+        "designSteelsCount": 0,
+        "moduleSteelsCount": 0,
+        "constraints": {}
+      },
+      "createdAt": "2025-08-13T14:55:32.618Z",
+      "updatedAt": "2025-08-13T14:55:32.625Z"
+    },
+    {
+      "id": "task_1755097326914_f0vxbmjwi",
+      "status": "failed",
+      "progress": 30,
+      "message": "优化失败: 输入数据验证失败",
+      "results": null,
+      "error": "输入数据验证失败",
+      "executionTime": 9,
+      "startTime": "2025-08-13T15:02:06.914Z",
+      "endTime": "2025-08-13T15:02:06.923Z",
+      "inputData": {
+        "designSteelsCount": 1,
+        "moduleSteelsCount": 1,
+        "constraints": {
+          "maxIterations": 1000,
+          "timeLimit": 30
+        }
+      },
+      "createdAt": "2025-08-13T15:02:06.914Z",
+      "updatedAt": "2025-08-13T15:02:06.923Z"
+    },
+    {
+      "id": "task_1755097801179_v2g0yxaa6",
+      "status": "failed",
+      "progress": 30,
+      "message": "优化失败: 输入数据验证失败",
+      "results": null,
+      "error": "输入数据验证失败",
+      "executionTime": 10,
+      "startTime": "2025-08-13T15:10:01.179Z",
+      "endTime": "2025-08-13T15:10:01.189Z",
+      "inputData": {
+        "designSteelsCount": 1,
+        "moduleSteelsCount": 1,
+        "constraints": {
+          "maxIterations": 1000,
+          "timeLimit": 30
+        }
+      },
+      "createdAt": "2025-08-13T15:10:01.179Z",
+      "updatedAt": "2025-08-13T15:10:01.189Z"
+    },
+    {
+      "id": "task_1755102392475_8xvr7mgtc",
+      "status": "failed",
+      "progress": 30,
+      "message": "优化失败: 输入数据验证失败",
+      "results": null,
+      "error": "输入数据验证失败",
+      "executionTime": 8,
+      "startTime": "2025-08-13T16:26:32.475Z",
+      "endTime": "2025-08-13T16:26:32.483Z",
+      "inputData": {
+        "designSteelsCount": 1,
+        "moduleSteelsCount": 1,
+        "constraints": {
+          "maxLossRate": 0.15,
+          "maxWeldingPoints": 3
+        }
+      },
+      "createdAt": "2025-08-13T16:26:32.475Z",
+      "updatedAt": "2025-08-13T16:26:32.483Z"
+    },
+    {
+      "id": "task_1755138931740_ydzxeihcn",
+      "status": "failed",
+      "progress": 30,
+      "message": "优化失败: 输入数据验证失败",
+      "results": null,
+      "error": "输入数据验证失败",
+      "executionTime": 15,
+      "startTime": "2025-08-14T02:35:31.740Z",
+      "endTime": "2025-08-14T02:35:31.755Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 1,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300,
+          "maxWeldingSegments": 2
+        }
+      },
+      "createdAt": "2025-08-14T02:35:31.740Z",
+      "updatedAt": "2025-08-14T02:35:31.755Z"
+    },
+    {
+      "id": "task_1755138979049_rhpnb394p",
+      "status": "failed",
+      "progress": 30,
+      "message": "优化失败: 输入数据验证失败",
+      "results": null,
+      "error": "输入数据验证失败",
+      "executionTime": 9,
+      "startTime": "2025-08-14T02:36:19.049Z",
+      "endTime": "2025-08-14T02:36:19.058Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 1,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300,
+          "maxWeldingSegments": 2
+        }
+      },
+      "createdAt": "2025-08-14T02:36:19.049Z",
+      "updatedAt": "2025-08-14T02:36:19.058Z"
+    },
+    {
+      "id": "task_1755138998642_m9fp0ijvr",
+      "status": "failed",
+      "progress": 30,
+      "message": "优化失败: 输入数据验证失败",
+      "results": null,
+      "error": "输入数据验证失败",
+      "executionTime": 6,
+      "startTime": "2025-08-14T02:36:38.642Z",
+      "endTime": "2025-08-14T02:36:38.648Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 1,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300,
+          "maxWeldingSegments": 2
+        }
+      },
+      "createdAt": "2025-08-14T02:36:38.642Z",
+      "updatedAt": "2025-08-14T02:36:38.648Z"
+    },
+    {
+      "id": "task_1755139928388_gnyovxd5v",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 127,
+      "startTime": "2025-08-14T02:52:08.388Z",
+      "endTime": "2025-08-14T02:52:08.515Z",
+      "inputData": {
+        "designSteelsCount": 2,
+        "moduleSteelsCount": 2,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 5,
+          "maxWeldingSegments": 1
+        }
+      },
+      "createdAt": "2025-08-14T02:52:08.388Z",
+      "updatedAt": "2025-08-14T02:52:08.515Z"
+    },
+    {
+      "id": "task_1755140287797_4lh5tgd4l",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 39,
+      "startTime": "2025-08-14T02:58:07.797Z",
+      "endTime": "2025-08-14T02:58:07.836Z",
+      "inputData": {
+        "designSteelsCount": 2,
+        "moduleSteelsCount": 2,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 5,
+          "maxWeldingSegments": 1
+        }
+      },
+      "createdAt": "2025-08-14T02:58:07.797Z",
+      "updatedAt": "2025-08-14T02:58:07.836Z"
+    },
+    {
+      "id": "task_1755140451138_9ptei8ut6",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 45,
+      "startTime": "2025-08-14T03:00:51.138Z",
+      "endTime": "2025-08-14T03:00:51.183Z",
+      "inputData": {
+        "designSteelsCount": 2,
+        "moduleSteelsCount": 2,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 5,
+          "maxWeldingSegments": 1
+        }
+      },
+      "createdAt": "2025-08-14T03:00:51.138Z",
+      "updatedAt": "2025-08-14T03:00:51.183Z"
+    },
+    {
+      "id": "task_1755140528683_062vu0f19",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 44,
+      "startTime": "2025-08-14T03:02:08.683Z",
+      "endTime": "2025-08-14T03:02:08.727Z",
+      "inputData": {
+        "designSteelsCount": 2,
+        "moduleSteelsCount": 2,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 5,
+          "maxWeldingSegments": 1
+        }
+      },
+      "createdAt": "2025-08-14T03:02:08.683Z",
+      "updatedAt": "2025-08-14T03:02:08.727Z"
+    },
+    {
+      "id": "task_1755140564595_nmj1wgh3h",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 55,
+      "startTime": "2025-08-14T03:02:44.595Z",
+      "endTime": "2025-08-14T03:02:44.650Z",
+      "inputData": {
+        "designSteelsCount": 2,
+        "moduleSteelsCount": 2,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 5,
+          "maxWeldingSegments": 1
+        }
+      },
+      "createdAt": "2025-08-14T03:02:44.595Z",
+      "updatedAt": "2025-08-14T03:02:44.650Z"
+    },
+    {
+      "id": "task_1755140823359_cqpelpfzt",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 52,
+      "startTime": "2025-08-14T03:07:03.359Z",
+      "endTime": "2025-08-14T03:07:03.411Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 1,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300,
+          "maxWeldingSegments": 2
+        }
+      },
+      "createdAt": "2025-08-14T03:07:03.359Z",
+      "updatedAt": "2025-08-14T03:07:03.411Z"
+    },
+    {
+      "id": "task_1755141438629_35puuvi4n",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 21,
+      "startTime": "2025-08-14T03:17:18.629Z",
+      "endTime": "2025-08-14T03:17:18.650Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 1,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300,
+          "maxWeldingSegments": 1
+        }
+      },
+      "createdAt": "2025-08-14T03:17:18.629Z",
+      "updatedAt": "2025-08-14T03:17:18.650Z"
+    },
+    {
+      "id": "task_1755141465984_ntnb9uzjw",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 12,
+      "startTime": "2025-08-14T03:17:45.984Z",
+      "endTime": "2025-08-14T03:17:45.996Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 1,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300,
+          "maxWeldingSegments": 1
+        }
+      },
+      "createdAt": "2025-08-14T03:17:45.984Z",
+      "updatedAt": "2025-08-14T03:17:45.996Z"
+    },
+    {
+      "id": "task_1755141574125_goltfig4e",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 25,
+      "startTime": "2025-08-14T03:19:34.125Z",
+      "endTime": "2025-08-14T03:19:34.150Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 1,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300,
+          "maxWeldingSegments": 1
+        }
+      },
+      "createdAt": "2025-08-14T03:19:34.125Z",
+      "updatedAt": "2025-08-14T03:19:34.150Z"
+    },
+    {
+      "id": "task_1755141589805_6o8ttxpoy",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 27,
+      "startTime": "2025-08-14T03:19:49.805Z",
+      "endTime": "2025-08-14T03:19:49.832Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 1,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300,
+          "maxWeldingSegments": 3
+        }
+      },
+      "createdAt": "2025-08-14T03:19:49.805Z",
+      "updatedAt": "2025-08-14T03:19:49.831Z"
+    },
+    {
+      "id": "task_1755142454268_c4s2u2bd2",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 27,
+      "startTime": "2025-08-14T03:34:14.268Z",
+      "endTime": "2025-08-14T03:34:14.295Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 1,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300,
+          "maxWeldingSegments": 1
+        }
+      },
+      "createdAt": "2025-08-14T03:34:14.269Z",
+      "updatedAt": "2025-08-14T03:34:14.295Z"
+    },
+    {
+      "id": "task_1755142469722_kkvfsorod",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 12,
+      "startTime": "2025-08-14T03:34:29.722Z",
+      "endTime": "2025-08-14T03:34:29.734Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 1,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300,
+          "maxWeldingSegments": 2
+        }
+      },
+      "createdAt": "2025-08-14T03:34:29.722Z",
+      "updatedAt": "2025-08-14T03:34:29.734Z"
+    },
+    {
+      "id": "task_1755142488484_fo2xvjvhl",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 26,
+      "startTime": "2025-08-14T03:34:48.484Z",
+      "endTime": "2025-08-14T03:34:48.510Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 1,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300,
+          "maxWeldingSegments": 4
+        }
+      },
+      "createdAt": "2025-08-14T03:34:48.484Z",
+      "updatedAt": "2025-08-14T03:34:48.510Z"
+    },
+    {
+      "id": "task_1755143677511_5mj9r7dqh",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 43,
+      "startTime": "2025-08-14T03:54:37.511Z",
+      "endTime": "2025-08-14T03:54:37.554Z",
+      "inputData": {
+        "designSteelsCount": 85,
+        "moduleSteelsCount": 1,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300,
+          "maxWeldingSegments": 2
+        }
+      },
+      "createdAt": "2025-08-14T03:54:37.511Z",
+      "updatedAt": "2025-08-14T03:54:37.554Z"
+    },
+    {
+      "id": "task_1755144186864_q1pdrc6en",
+      "status": "completed",
+      "progress": 100,
+      "message": "优化完成",
+      "error": null,
+      "executionTime": 15,
+      "startTime": "2025-08-14T04:03:06.864Z",
+      "endTime": "2025-08-14T04:03:06.879Z",
+      "inputData": {
+        "designSteelsCount": 1,
+        "moduleSteelsCount": 2,
+        "constraints": {
+          "wasteThreshold": 600,
+          "targetLossRate": 5,
+          "timeLimit": 300,
+          "maxWeldingSegments": 1
+        }
+      },
+      "createdAt": "2025-08-14T04:03:06.864Z",
+      "updatedAt": "2025-08-14T04:03:06.879Z"
+    }
+  ],
+  "systemStats": {
+    "totalOptimizations": 0,
+    "totalDesignSteels": 85,
+    "totalModuleSteels": 3,
+    "totalSavedCost": 0,
+    "lastUpdated": "2025-08-14T03:54:17.706Z"
+  },
+  "operationLogs": [
+    {
+      "id": "1754991123444",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1754991123346_3nx3w33cp",
+      "details": {
+        "optimizationId": "opt_1754991123356_30lhvpcik",
+        "executionTime": 84
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-12T09:32:03.444Z"
+    },
+    {
+      "id": "1754991125039",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1754991124967_pstef68tp",
+      "details": {
+        "optimizationId": "opt_1754991124976_7u4i3ux7t",
+        "executionTime": 56
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-12T09:32:05.039Z"
+    },
+    {
+      "id": "1754991129976",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1754991129858_fqidgymjj",
+      "details": {
+        "optimizationId": "opt_1754991129868_2e0pe6nkq",
+        "executionTime": 103
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-12T09:32:09.976Z"
+    },
+    {
+      "id": "1754991131320",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1754991131207_9dr95nu10",
+      "details": {
+        "optimizationId": "opt_1754991131220_mftkkqy9z",
+        "executionTime": 96
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-12T09:32:11.320Z"
+    },
+    {
+      "id": "1754991566140",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1754991566098_k421zehq4",
+      "details": {
+        "optimizationId": "opt_1754991566116_miopm3366",
+        "executionTime": 20
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-12T09:39:26.140Z"
+    },
+    {
+      "id": "1754993021772",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1754993021692_ezrvimccs",
+      "details": {
+        "optimizationId": "opt_1754993021710_z0a4b1ebe",
+        "executionTime": 52
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-12T10:03:41.772Z"
+    },
+    {
+      "id": "1754996419618",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1754996419565_3ec94jppv",
+      "details": {
+        "optimizationId": "opt_1754996419581_ml6fmvg3q",
+        "executionTime": 28
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-12T11:00:19.618Z"
+    },
+    {
+      "id": "1754996442599",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1754996442562_qbob8vy9r",
+      "details": {
+        "optimizationId": "opt_1754996442573_zz9vimt9n",
+        "executionTime": 21
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-12T11:00:42.599Z"
+    },
+    {
+      "id": "1755086980381",
+      "operationType": "upload",
+      "description": "上传设计钢材文件 西耳墙.xls",
+      "details": {
+        "count": 85,
+        "filename": "西耳墙.xls"
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-13T12:09:40.381Z"
+    },
+    {
+      "id": "1755087350255",
+      "operationType": "upload",
+      "description": "上传设计钢材文件 西耳墙.xls",
+      "details": {
+        "count": 85,
+        "filename": "西耳墙.xls"
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-13T12:15:50.255Z"
+    },
+    {
+      "id": "1755133089285",
+      "operationType": "upload",
+      "description": "上传设计钢材文件 西耳墙.xls",
+      "details": {
+        "count": 85,
+        "filename": "西耳墙.xls"
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T00:58:09.285Z"
+    },
+    {
+      "id": "1755136318853",
+      "operationType": "upload",
+      "description": "上传设计钢材文件 西耳墙.xls",
+      "details": {
+        "count": 85,
+        "filename": "西耳墙.xls"
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T01:51:58.853Z"
+    },
+    {
+      "id": "1755136640066",
+      "operationType": "upload",
+      "description": "上传设计钢材文件 西耳墙.xls",
+      "details": {
+        "count": 85,
+        "filename": "西耳墙.xls"
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T01:57:20.066Z"
+    },
+    {
+      "id": "1755138433545",
+      "operationType": "upload",
+      "description": "上传设计钢材文件 西耳墙.xls",
+      "details": {
+        "count": 85,
+        "filename": "西耳墙.xls"
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T02:27:13.545Z"
+    },
+    {
+      "id": "1755138921727",
+      "operationType": "upload",
+      "description": "上传设计钢材文件 西耳墙.xls",
+      "details": {
+        "count": 85,
+        "filename": "西耳墙.xls"
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T02:35:21.727Z"
+    },
+    {
+      "id": "1755139928519",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1755139928388_gnyovxd5v",
+      "details": {
+        "optimizationId": "opt_1755139928400_yxeyse5am",
+        "executionTime": 113
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T02:52:08.519Z"
+    },
+    {
+      "id": "1755140287838",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1755140287797_4lh5tgd4l",
+      "details": {
+        "optimizationId": "opt_1755140287804_qkqwds617",
+        "executionTime": 32
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T02:58:07.838Z"
+    },
+    {
+      "id": "1755140451185",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1755140451138_9ptei8ut6",
+      "details": {
+        "optimizationId": "opt_1755140451146_zvw9emzc6",
+        "executionTime": 36
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T03:00:51.185Z"
+    },
+    {
+      "id": "1755140528728",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1755140528683_062vu0f19",
+      "details": {
+        "optimizationId": "opt_1755140528692_vu5ksf1vt",
+        "executionTime": 35
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T03:02:08.728Z"
+    },
+    {
+      "id": "1755140564653",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1755140564595_nmj1wgh3h",
+      "details": {
+        "optimizationId": "opt_1755140564605_t5hfd4nxd",
+        "executionTime": 45
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T03:02:44.653Z"
+    },
+    {
+      "id": "1755140817207",
+      "operationType": "upload",
+      "description": "上传设计钢材文件 西耳墙.xls",
+      "details": {
+        "count": 85,
+        "filename": "西耳墙.xls"
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T03:06:57.207Z"
+    },
+    {
+      "id": "1755140823414",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1755140823359_cqpelpfzt",
+      "details": {
+        "optimizationId": "opt_1755140823373_e9fwnjybw",
+        "executionTime": 37
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T03:07:03.414Z"
+    },
+    {
+      "id": "1755140856308",
+      "operationType": "upload",
+      "description": "上传设计钢材文件 西耳墙.xls",
+      "details": {
+        "count": 85,
+        "filename": "西耳墙.xls"
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T03:07:36.308Z"
+    },
+    {
+      "id": "1755141421206",
+      "operationType": "upload",
+      "description": "上传设计钢材文件 西耳墙.xls",
+      "details": {
+        "count": 85,
+        "filename": "西耳墙.xls"
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T03:17:01.206Z"
+    },
+    {
+      "id": "1755141438654",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1755141438629_35puuvi4n",
+      "details": {
+        "optimizationId": "opt_1755141438642_madin23c4",
+        "executionTime": 8
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T03:17:18.654Z"
+    },
+    {
+      "id": "1755141465998",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1755141465984_ntnb9uzjw",
+      "details": {
+        "optimizationId": "opt_1755141465991_c33fgv0ja",
+        "executionTime": 5
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T03:17:45.998Z"
+    },
+    {
+      "id": "1755141565459",
+      "operationType": "upload",
+      "description": "上传设计钢材文件 西耳墙.xls",
+      "details": {
+        "count": 85,
+        "filename": "西耳墙.xls"
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T03:19:25.459Z"
+    },
+    {
+      "id": "1755141574152",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1755141574125_goltfig4e",
+      "details": {
+        "optimizationId": "opt_1755141574138_2pqxioa95",
+        "executionTime": 12
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T03:19:34.152Z"
+    },
+    {
+      "id": "1755141589834",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1755141589805_6o8ttxpoy",
+      "details": {
+        "optimizationId": "opt_1755141589817_kebfb2zyq",
+        "executionTime": 14
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T03:19:49.834Z"
+    },
+    {
+      "id": "1755142445240",
+      "operationType": "upload",
+      "description": "上传设计钢材文件 西耳墙.xls",
+      "details": {
+        "count": 85,
+        "filename": "西耳墙.xls"
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T03:34:05.240Z"
+    },
+    {
+      "id": "1755142454299",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1755142454268_c4s2u2bd2",
+      "details": {
+        "optimizationId": "opt_1755142454279_xvsh1od19",
+        "executionTime": 16
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T03:34:14.299Z"
+    },
+    {
+      "id": "1755142469737",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1755142469722_kkvfsorod",
+      "details": {
+        "optimizationId": "opt_1755142469729_akwbsv9te",
+        "executionTime": 5
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T03:34:29.737Z"
+    },
+    {
+      "id": "1755142488516",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1755142488484_fo2xvjvhl",
+      "details": {
+        "optimizationId": "opt_1755142488497_l10khnmjf",
+        "executionTime": 12
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T03:34:48.516Z"
+    },
+    {
+      "id": "1755143657712",
+      "operationType": "upload",
+      "description": "上传设计钢材文件 西耳墙.xls",
+      "details": {
+        "count": 85,
+        "filename": "西耳墙.xls"
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T03:54:17.712Z"
+    },
+    {
+      "id": "1755143677557",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1755143677511_5mj9r7dqh",
+      "details": {
+        "optimizationId": "opt_1755143677527_4prw2wj98",
+        "executionTime": 27
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T03:54:37.557Z"
+    },
+    {
+      "id": "1755144186880",
+      "operationType": "optimize",
+      "description": "完成优化任务 task_1755144186864_q1pdrc6en",
+      "details": {
+        "optimizationId": "opt_1755144186873_gm6yuzr9z",
+        "executionTime": 5
+      },
+      "ipAddress": null,
+      "userAgent": null,
+      "createdAt": "2025-08-14T04:03:06.881Z"
+    }
+  ],
+  "settings": {
+    "autoBackup": true,
+    "maxLogEntries": 1000,
+    "maxBackups": 10
+  }
+}
