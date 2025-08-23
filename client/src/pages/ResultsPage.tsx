@@ -2,17 +2,11 @@ import React, { useState, useEffect, useRef, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ErrorPage from '../components/ErrorPage';
 import { 
-  Alert, 
   Tabs, 
   Typography, 
   Button,
   Space,
-  message,
-  Skeleton,
-  Row,
-  Col,
-  Card,
-  Spin
+  message
 } from 'antd';
 import { 
   FileExcelOutlined, 
@@ -64,7 +58,7 @@ const ResultsPage: React.FC = () => {
     }
     
     console.log('🔍 Processed results content:', processedResults);
-  }, [processedResults, results]);
+  }, [processedResults, results, designSteelsMemo, moduleSteelsMemo]);
   
   useEffect(() => {
     if (optimizationResults) {

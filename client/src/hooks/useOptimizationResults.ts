@@ -561,7 +561,7 @@ export const useAsyncOptimization = () => {
     
     // 每2秒轮询一次
     pollingRef.current = setInterval(pollTaskStatus, 2000);
-  }, [stopPolling]);
+  }, [stopPolling, setCurrentTask, setOptimizationResults]);
 
   // 提交优化任务
   const submitOptimization = useCallback(async (optimizationData: any) => {
@@ -625,7 +625,7 @@ const errorMsg = result.error || '任务创建失败，但未返回任务ID';
       }));
       return { success: false, error: errorMessage };
     }
-  }, [startPolling]);
+  }, [startPolling, setCurrentTask]);
 
   // 取消任务
   const cancelTask = useCallback(async () => {
@@ -658,7 +658,7 @@ const errorMsg = result.error || '任务创建失败，但未返回任务ID';
       const errorMessage = error instanceof Error ? error.message : '网络错误';
       return { success: false, error: errorMessage };
     }
-  }, [currentTask.taskId, stopPolling]);
+  }, [currentTask.taskId, stopPolling, setCurrentTask]);
 
   // 重置任务状态
   const resetTask = useCallback(() => {
@@ -672,7 +672,7 @@ const errorMsg = result.error || '任务创建失败，但未返回任务ID';
       error: null,
       executionTime: 0
     });
-  }, [stopPolling]);
+  }, [stopPolling, setCurrentTask]);
 
   // 获取任务历史
   const getTaskHistory = useCallback(async (limit = 20) => {
