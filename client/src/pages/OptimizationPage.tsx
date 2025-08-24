@@ -9,41 +9,38 @@ import {
   Input, 
   Row, 
   Col, 
-  Divider,
+
   Table,
   Progress,
   Alert,
   Typography,
-  Tag,
+
   Modal,
   InputNumber,
-  Collapse,
+
   Popconfirm
 } from 'antd';
 import { 
   PlayCircleOutlined, 
   UploadOutlined, 
-  FileExcelOutlined,
-  SettingOutlined,
+
   DeleteOutlined,
   PlusOutlined,
   EditOutlined,
-  DownOutlined,
-  RightOutlined,
+
   ReloadOutlined
 } from '@ant-design/icons';
 import styled from 'styled-components';
-import { motion } from 'framer-motion';
 import { useOptimizationContext } from '../contexts/OptimizationContext';
 import { useNavigate } from 'react-router-dom';
 import { generateDisplayIds } from '../utils/steelUtils';
-import { useAsyncOptimization } from '../hooks/useOptimizationResults';
+
 import { DesignSteel, ModuleSteel } from '../types';
 import { DEFAULT_CONSTRAINTS } from '../constants';
 // import { saveToLocalStorage, loadFromLocalStorage, clearLocalStorage } from '../utils/storageUtils';
 
 const { Title, Text } = Typography;
-const { Panel } = Collapse;
+
 
 const PageContainer = styled.div`
   height: 100%;
@@ -61,11 +58,7 @@ const StepCard = styled(Card)`
   }
 `;
 
-const ActionButton = styled(Button)`
-  border-radius: 8px;
-  height: 40px;
-  font-weight: 500;
-`;
+
 
 const OptimizationPage: React.FC = () => {
   const [form] = Form.useForm();
@@ -142,7 +135,6 @@ const OptimizationPage: React.FC = () => {
   }, [currentOptimization, clearCurrentOptimization]);
   
   // 本地UI状态
-  const [designCollapsed, setDesignCollapsed] = useState(false);
   const [uploading, setUploading] = useState(false);
   const [showDesignModal, setShowDesignModal] = useState(false);
   const [editingDesignSteel, setEditingDesignSteel] = useState<DesignSteel | null>(null);
@@ -337,6 +329,7 @@ const OptimizationPage: React.FC = () => {
   };
 
   // 保存设计钢材
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const handleSaveDesignSteel = (values: any) => {
     const steel: DesignSteel = {
       id: editingDesignSteel?.id || generateId(),
