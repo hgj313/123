@@ -388,6 +388,7 @@ const OptimizationPage: React.FC = () => {
   // ==================== 模数钢材管理 ====================
   
   // 保存模数钢材
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const handleSaveModuleSteel = (values: any) => {
     const steel: ModuleSteel = {
       id: editingModuleSteel?.id || generateId(),
@@ -484,6 +485,7 @@ const OptimizationPage: React.FC = () => {
 
   // ==================== 约束条件管理 ====================
   
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const handleConstraintChange = (field: string, value: any) => {
     setConstraints({
       ...constraints,
@@ -491,6 +493,7 @@ const OptimizationPage: React.FC = () => {
     });
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const resetConstraints = () => {
     Modal.confirm({
       title: '重置约束条件',
@@ -505,6 +508,7 @@ const OptimizationPage: React.FC = () => {
     });
   };
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const getConstraintDescription = (field: string) => {
     const descriptions = {
       wasteThreshold: '当余料长度小于此值时，将被视为废料无法再次利用',
@@ -560,6 +564,7 @@ const OptimizationPage: React.FC = () => {
 
   // ==================== 表格列定义 ====================
   
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const columns = [
     {
       title: '分组编号',
@@ -638,6 +643,7 @@ const OptimizationPage: React.FC = () => {
     },
   ];
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const moduleColumns = [
     {
       title: '名称',
