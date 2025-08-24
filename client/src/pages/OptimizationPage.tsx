@@ -136,8 +136,10 @@ const OptimizationPage: React.FC = () => {
   
   // 本地UI状态
   const [uploading, setUploading] = useState(false);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [showDesignModal, setShowDesignModal] = useState(false);
   const [editingDesignSteel, setEditingDesignSteel] = useState<DesignSteel | null>(null);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [showModuleModal, setShowModuleModal] = useState(false);
   const [editingModuleSteel, setEditingModuleSteel] = useState<ModuleSteel | null>(null);
   const [selectedRowKeys, setSelectedRowKeys] = React.useState<React.Key[]>([]);
