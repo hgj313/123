@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { 
   Card, 
   Button, 
@@ -26,7 +26,6 @@ import {
   FileExcelOutlined,
   SettingOutlined,
   DeleteOutlined,
-
   PlusOutlined,
   EditOutlined,
   DownOutlined,
@@ -35,12 +34,13 @@ import {
 } from '@ant-design/icons';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-// import type { UploadProps, UploadFile } from 'antd/es/upload/interface';
 import { useOptimizationContext } from '../contexts/OptimizationContext';
-import { DesignSteel, ModuleSteel } from '../types';
-import { DEFAULT_CONSTRAINTS } from '../constants';
 import { useNavigate } from 'react-router-dom';
 import { generateDisplayIds } from '../utils/steelUtils';
+import { useAsyncOptimization } from '../hooks/useOptimizationResults';
+import { DesignSteel, ModuleSteel } from '../types';
+import { DEFAULT_CONSTRAINTS } from '../constants';
+// import { saveToLocalStorage, loadFromLocalStorage, clearLocalStorage } from '../utils/storageUtils';
 
 const { Title, Text } = Typography;
 const { Panel } = Collapse;
@@ -92,8 +92,6 @@ const OptimizationPage: React.FC = () => {
   } = useOptimizationContext();
   
   const navigate = useNavigate();
-  // 关键修复：使用useRef替代useState，防止不必要的重渲染导致跳转被取消
-  const lastNavigatedTaskId = useRef<string | null>(null);
   
   // 监听优化任务状态，完成后自动跳转
   useEffect(() => {
@@ -479,6 +477,11 @@ const OptimizationPage: React.FC = () => {
     }
   };
 
+  const handleReset = () => {
+    clearOptimizationData();
+    message.success('数据已重置');
+  };
+
   // ==================== 约束条件管理 ====================
   
   const handleConstraintChange = (field: string, value: any) => {
@@ -682,433 +685,259 @@ const OptimizationPage: React.FC = () => {
 
   return (
     <PageContainer>
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-      >
-        <Title level={2}>钢材优化配置</Title>
-        <Text type="secondary">配置优化参数，管理钢材清单，开始智能优化</Text>
+      <div style={{ padding: '24px' }}>
+        <Title level={2} style={{ marginBottom: 24 }}>钢结构优化设计</Title>
         
-        <Divider />
-
-        {/* 步骤1: 设计钢材管理 */}
-        <StepCard 
-          title={
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <Space>
-                <FileExcelOutlined />
-                设计钢材管理
-                <Button
-                  type="text"
-                  icon={designCollapsed ? <RightOutlined /> : <DownOutlined />}
-                  onClick={() => setDesignCollapsed(!designCollapsed)}
-                  size="small"
-                >
-                  {designCollapsed ? '展开' : '折叠'}
-                </Button>
-            </Space>
-              <Space>
-                <Upload 
-                  beforeUpload={handleDesignSteelUpload}
-                  accept=".xlsx,.xls,.csv"
-                  showUploadList={false}
-                >
-                  <Button icon={<UploadOutlined />} loading={uploading}>
-                    上传Excel文件
-                  </Button>
-                </Upload>
-                <Button
-                  type="primary"
-                  icon={<PlusOutlined />}
-                  onClick={() => setShowDesignModal(true)}
-                >
-                  手动添加
-                </Button>
-              </Space>
-                    </div>
-          }
-        >
-          <div style={{ marginBottom: 12, display: 'flex', alignItems: 'center', gap: 12 }}>
-            <Button
-              danger
-              disabled={selectedRowKeys.length === 0}
-              onClick={handleBatchDelete}
-            >
-              批量删除{selectedRowKeys.length > 0 ? `（已选${selectedRowKeys.length}项）` : ''}
-            </Button>
-          </div>
-          <Collapse activeKey={designCollapsed ? [] : ['1']} ghost>
-            <Panel header="" key="1" showArrow={false}>
-              <Table
-                rowSelection={rowSelection}
-                columns={columns}
-                dataSource={designSteelsForDisplay}
-                rowKey={(row) => row.id}
-                pagination={{
-                  pageSize: 10,
-                  showSizeChanger: true,
-                  showQuickJumper: true,
-                  showTotal: (total) => `共 ${total} 条记录`,
+        {/* 设计钢材管理 */}
+        <StepCard title="设计钢材管理">
+          <Row gutter={16}>
+            <Col span={12}>
+              <Upload
+                accept=".xlsx,.xls"
+                showUploadList={false}
+                beforeUpload={(file) => {
+                  handleDesignSteelUpload(file);
+                  return false;
                 }}
-                size="small"
-                scroll={{ x: 900 }}
-              />
-            </Panel>
-          </Collapse>
-        </StepCard>
-
-        {/* 步骤2: 模数钢材管理 */}
-        <StepCard 
-          title={
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <Space>
-              <SettingOutlined />
-                模数钢材管理
-            </Space>
-              <Button
-              type="primary"
-              icon={<PlusOutlined />}
-                onClick={() => setShowModuleModal(true)}
-            >
-                添加模数钢材
-              </Button>
-            </div>
-          }
-        >
+              >
+                <Button icon={<UploadOutlined />} loading={uploading}>
+                  上传设计钢材
+                </Button>
+              </Upload>
+            </Col>
+            <Col span={12}>
+              <Space>
+                <Button type="primary" icon={<PlusOutlined />} onClick={() => setShowDesignModal(true)}>
+                  添加设计钢材
+                </Button>
+                {selectedRowKeys.length > 0 && (
+                  <Popconfirm
+                    title={`确认删除选中的${selectedRowKeys.length}条设计钢材吗？`}
+                    onConfirm={handleBatchDelete}
+                    okText="确认"
+                    cancelText="取消"
+                  >
+                    <Button danger icon={<DeleteOutlined />}>
+                      批量删除
+                    </Button>
+                  </Popconfirm>
+                )}
+              </Space>
+            </Col>
+          </Row>
+          
           <Table
-            columns={moduleColumns}
-            dataSource={moduleSteels}
+            rowSelection={rowSelection}
+            columns={[
+              {
+                title: '编号',
+                dataIndex: 'displayId',
+                key: 'displayId',
+                width: 80,
+              },
+              {
+                title: '名称',
+                dataIndex: 'name',
+                key: 'name',
+                width: 120,
+              },
+              {
+                title: '规格',
+                dataIndex: 'specification',
+                key: 'specification',
+                width: 100,
+              },
+              {
+                title: '长度(m)',
+                dataIndex: 'length',
+                key: 'length',
+                width: 80,
+                render: (length: number) => length.toFixed(2),
+              },
+              {
+                title: '数量',
+                dataIndex: 'quantity',
+                key: 'quantity',
+                width: 60,
+              },
+              {
+                title: '操作',
+                key: 'action',
+                width: 100,
+                render: (_, record: DesignSteel) => (
+                  <Space>
+                    <Button
+                      type="link"
+                      icon={<EditOutlined />}
+                      onClick={() => {
+                        setEditingDesignSteel(record);
+                        setShowDesignModal(true);
+                      }}
+                    />
+                    <Button
+                      type="link"
+                      danger
+                      icon={<DeleteOutlined />}
+                      onClick={() => handleDeleteDesignSteel(record)}
+                    />
+                  </Space>
+                ),
+              },
+            ]}
+            dataSource={designSteelsForDisplay}
             rowKey="id"
-            pagination={false}
-            size="small"
+            pagination={{ pageSize: 10 }}
+            style={{ marginTop: 16 }}
           />
         </StepCard>
-
-        {/* 步骤3: 约束条件设置 */}
-        <StepCard 
-          title={
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <Space>
-              <SettingOutlined />
-                约束条件设置
-            </Space>
-              <Button
-                type="primary"
-                icon={<ReloadOutlined />}
-                onClick={resetConstraints}
-              >
-                重置默认值
+        
+        {/* 模块钢材管理 */}
+        <StepCard title="模块钢材管理">
+          <Row gutter={16}>
+            <Col span={12}>
+              <Button type="primary" icon={<PlusOutlined />} onClick={() => setShowModuleModal(true)}>
+                添加模块钢材
               </Button>
-            </div>
-          }
-        >
-          {/* 焊接约束冲突检查 */}
-          {(() => {
-            const validation = validateWeldingConstraint();
-            if (!validation.isValid) {
-              return (
-                <Alert
-                  message="焊接约束冲突"
-                  description={validation.message}
-                  type="warning"
-                  showIcon
-                  style={{ marginBottom: 16 }}
-                />
-              );
-            }
-            return null;
-          })()}
-            <Row gutter={[16, 16]}>
-            <Col xs={24} sm={12} md={6}>
-              <Card size="small" title="废料阈值 (mm)">
-                <InputNumber
-                  value={constraints.wasteThreshold}
-                  onChange={(value) => handleConstraintChange('wasteThreshold', value !== null && value !== undefined ? value : DEFAULT_CONSTRAINTS.wasteThreshold)}
-                  min={0}
-                  max={1000}
-                  style={{ width: '100%' }}
-                  placeholder={DEFAULT_CONSTRAINTS.wasteThreshold.toString()}
-                />
-                <Text type="secondary" style={{ fontSize: '12px', display: 'block', marginTop: '4px' }}>
-                  {getConstraintDescription('wasteThreshold')}
-                </Text>
-              </Card>
             </Col>
-
-            <Col xs={24} sm={12} md={6}>
-              <Card size="small" title="目标损耗率 (%)">
-                <InputNumber
-                  value={constraints.targetLossRate}
-                  onChange={(value) => handleConstraintChange('targetLossRate', value !== null && value !== undefined ? value : DEFAULT_CONSTRAINTS.targetLossRate)}
-                  min={0}
-                  max={50}
-                  step={0.1}
-                  style={{ width: '100%' }}
-                  placeholder={DEFAULT_CONSTRAINTS.targetLossRate.toString()}
-                />
-                <Text type="secondary" style={{ fontSize: '12px', display: 'block', marginTop: '4px' }}>
-                  {getConstraintDescription('targetLossRate')}
-                </Text>
-              </Card>
-              </Col>
-              
-            <Col xs={24} sm={12} md={6}>
-              <Card size="small" title="计算时间限制 (秒)">
-                <InputNumber
-                  value={constraints.timeLimit}
-                  onChange={(value) => handleConstraintChange('timeLimit', value !== null && value !== undefined ? value : DEFAULT_CONSTRAINTS.timeLimit)}
-                  min={1}
-                  max={300}
-                  style={{ width: '100%' }}
-                  placeholder={DEFAULT_CONSTRAINTS.timeLimit.toString()}
-                />
-                <Text type="secondary" style={{ fontSize: '12px', display: 'block', marginTop: '4px' }}>
-                  {getConstraintDescription('timeLimit')}
-                </Text>
-              </Card>
-              </Col>
-              
-            <Col xs={24} sm={12} md={6}>
-              <Card size="small" title={
-                <span>
-                  最大焊接次数 (次)
-                  <Tag color="orange" style={{ marginLeft: 8 }}>V3新增</Tag>
-                </span>
-              }>
-                <InputNumber
-                  value={constraints.maxWeldingSegments}
-                  onChange={(value) => handleConstraintChange('maxWeldingSegments', value !== null && value !== undefined ? value : DEFAULT_CONSTRAINTS.maxWeldingSegments)}
-                  min={0}
-                  max={9}
-                  style={{ width: '100%' }}
-                  placeholder={DEFAULT_CONSTRAINTS.maxWeldingSegments.toString()}
-                />
-                <Text type="secondary" style={{ fontSize: '12px', display: 'block', marginTop: '4px' }}>
-                  {getConstraintDescription('maxWeldingSegments')}
-                </Text>
-              </Card>
-              </Col>
-            </Row>
+          </Row>
+          
+          <Table
+            columns={[
+              {
+                title: '编号',
+                dataIndex: 'displayId',
+                key: 'displayId',
+                width: 80,
+              },
+              {
+                title: '名称',
+                dataIndex: 'name',
+                key: 'name',
+                width: 120,
+              },
+              {
+                title: '规格',
+                dataIndex: 'specification',
+                key: 'specification',
+                width: 100,
+              },
+              {
+                title: '长度(m)',
+                dataIndex: 'length',
+                key: 'length',
+                width: 80,
+                render: (length: number) => length.toFixed(2),
+              },
+              {
+                title: '数量',
+                dataIndex: 'quantity',
+                key: 'quantity',
+                width: 60,
+              },
+              {
+                title: '操作',
+                key: 'action',
+                width: 100,
+                render: (_, record: ModuleSteel) => (
+                  <Space>
+                    <Button
+                      type="link"
+                      icon={<EditOutlined />}
+                      onClick={() => {
+                        setEditingModuleSteel(record);
+                        setShowModuleModal(true);
+                      }}
+                    />
+                    <Button
+                      type="link"
+                      danger
+                      icon={<DeleteOutlined />}
+                      onClick={() => handleDeleteModuleSteel(record)}
+                    />
+                  </Space>
+                ),
+              },
+            ]}
+            dataSource={moduleSteels.map((steel, index) => ({
+              ...steel,
+              displayId: `M${(index + 1).toString().padStart(3, '0')}`,
+            }))}
+            rowKey="id"
+            pagination={{ pageSize: 10 }}
+            style={{ marginTop: 16 }}
+          />
         </StepCard>
-
-        {/* 步骤4: 开始优化 */}
-        <StepCard 
-          title={
-            <Space>
-              <PlayCircleOutlined />
-              开始优化
-            </Space>
-          }
-        >
-          <div style={{ textAlign: 'center', padding: '40px 0' }}>
-            {isOptimizing ? (
-              <div>
-                  <Progress 
-                  type="circle" 
-                    percent={Math.round(progress)} 
-                    status="active"
-                  style={{ marginBottom: 16 }}
-                  />
-                <div>
-                  <Text>正在进行智能优化计算...</Text>
-                </div>
-              </div>
-            ) : (
-              <div>
-                <ActionButton
-                  type="primary"
-                  size="large"
-                  icon={<PlayCircleOutlined />}
-                  onClick={handleStartOptimization}
-                  disabled={designSteels.length === 0 || moduleSteels.length === 0}
-                  style={{ 
-                    height: '60px', 
-                    fontSize: '18px', 
-                    padding: '0 40px',
-                    background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-                    border: 'none'
-                  }}
-                >
-                  开始智能优化
-                </ActionButton>
-                <div style={{ marginTop: 16 }}>
-                  <Text type="secondary">
-                    已配置 {designSteels.length} 条设计钢材，{moduleSteels.length} 种模数钢材
-                  </Text>
-                </div>
-              </div>
-            )}
-            
-            {error && (
-              <Alert
-                message="优化错误"
-                description={error}
-                type="error"
-                showIcon
-                style={{ marginTop: 16, textAlign: 'left' }}
-              />
-            )}
-          </div>
-        </StepCard>
-
-        {/* 设计钢材添加/编辑模态框 */}
-      <Modal
-          title={editingDesignSteel ? "编辑设计钢材" : "添加设计钢材"}
-          open={showDesignModal}
-          onCancel={() => {
-            setShowDesignModal(false);
-            setEditingDesignSteel(null);
-            form.resetFields();
-          }}
-          footer={null}
-        width={600}
-      >
-          <Form
-            form={form}
-            layout="vertical"
-            onFinish={handleSaveDesignSteel}
-          >
+        
+        {/* 约束条件 */}
+        <StepCard title="约束条件">
+          <Form layout="vertical">
             <Row gutter={16}>
-              <Col span={12}>
-                <Form.Item
-                  label="长度 (mm)"
-                  name="length"
-                  rules={[
-                    { required: true, message: '请输入钢材长度' },
-                    { type: 'number', min: 1, max: 50000, message: '长度必须在1-50000mm之间' }
-                  ]}
-                >
-                  <InputNumber style={{ width: '100%' }} placeholder="如: 3000" />
+              <Col span={8}>
+                <Form.Item label="最大余量(mm)" name="maxRemainder">
+                  <InputNumber min={0} max={1000} step={1} style={{ width: '100%' }} />
                 </Form.Item>
               </Col>
-              <Col span={12}>
-                <Form.Item
-                  label="数量"
-                  name="quantity"
-                  rules={[
-                    { required: true, message: '请输入数量' },
-                    { type: 'number', min: 1, max: 10000, message: '数量必须在1-10000之间' }
-                  ]}
-                >
-                  <InputNumber style={{ width: '100%' }} placeholder="如: 10" />
+              <Col span={8}>
+                <Form.Item label="最小余量(mm)" name="minRemainder">
+                  <InputNumber min={0} max={1000} step={1} style={{ width: '100%' }} />
+                </Form.Item>
+              </Col>
+              <Col span={8}>
+                <Form.Item label="优化算法" name="algorithm">
+                  <Input placeholder="默认算法" />
                 </Form.Item>
               </Col>
             </Row>
-            
-            <Row gutter={16}>
-              <Col span={12}>
-                <Form.Item
-                  label="截面面积 (mm²)"
-                  name="crossSection"
-                  rules={[
-                    { required: true, message: '请输入截面面积' },
-                    { type: 'number', min: 1, max: 100000, message: '截面面积必须在1-100000mm²之间' }
-                  ]}
-                >
-                  <InputNumber style={{ width: '100%' }} placeholder="如: 2000" />
-                </Form.Item>
-              </Col>
-              <Col span={12}>
-                <Form.Item
-                  label="构件编号"
-                  name="componentNumber"
-                >
-                  <Input placeholder="如: GJ-001" />
-                </Form.Item>
-              </Col>
-            </Row>
-            
-            <Row gutter={16}>
-              <Col span={12}>
-                <Form.Item
-                  label="规格"
-                  name="specification"
-                >
-                  <Input placeholder="如: HRB400" />
-                </Form.Item>
-              </Col>
-              <Col span={12}>
-                <Form.Item
-                  label="零件号"
-                  name="partNumber"
-                >
-                  <Input placeholder="如: P-001" />
-                </Form.Item>
-              </Col>
-            </Row>
-
-            <Form.Item style={{ marginBottom: 0, textAlign: 'right' }}>
-              <Space>
-                <Button onClick={() => {
-                  setShowDesignModal(false);
-                  setEditingDesignSteel(null);
-                  form.resetFields();
-                }}>
-                  取消
-                </Button>
-                <Button type="primary" htmlType="submit">
-                  {editingDesignSteel ? '更新' : '添加'}
-                </Button>
-              </Space>
-            </Form.Item>
           </Form>
-        </Modal>
-
-        {/* 模数钢材添加/编辑模态框 */}
-        <Modal
-          title={editingModuleSteel ? "编辑模数钢材" : "添加模数钢材"}
-          open={showModuleModal}
-          onCancel={() => {
-            setShowModuleModal(false);
-            setEditingModuleSteel(null);
-            moduleForm.resetFields();
-          }}
-          footer={null}
-        >
-          <Form
-            form={moduleForm}
-            layout="vertical"
-            onFinish={handleSaveModuleSteel}
-          >
-            <Form.Item
-              label="名称"
-              name="name"
-              rules={[{ required: true, message: '请输入模数钢材名称' }]}
+        </StepCard>
+        
+        {/* 优化操作 */}
+        <StepCard title="优化操作">
+          <Space>
+            <Button
+              type="primary"
+              size="large"
+              icon={<PlayCircleOutlined />}
+              onClick={handleStartOptimization}
+              loading={isOptimizing}
+              disabled={designSteels.length === 0}
             >
-              <Input placeholder="如: 12米标准钢材" />
-          </Form.Item>
-          
-            <Form.Item
-              label="长度 (mm)"
-              name="length"
-              rules={[
-                { required: true, message: '请输入长度' },
-                { type: 'number', min: 1000, max: 50000, message: '长度必须在1000-50000mm之间' }
-              ]}
+              开始优化
+            </Button>
+            <Button
+              size="large"
+              icon={<ReloadOutlined />}
+              onClick={() => {
+                Modal.confirm({
+                  title: '确认重置',
+                  content: '重置将清除所有当前数据，确定要继续吗？',
+                  onOk: handleReset,
+                });
+              }}
             >
-              <InputNumber style={{ width: '100%' }} placeholder="如: 12000" />
-          </Form.Item>
+              重置数据
+            </Button>
+          </Space>
           
-            <Form.Item style={{ marginBottom: 0, textAlign: 'right' }}>
-              <Space>
-                <Button onClick={() => {
-                  setShowModuleModal(false);
-                  setEditingModuleSteel(null);
-                  moduleForm.resetFields();
-                }}>
-                  取消
-                </Button>
-                <Button type="primary" htmlType="submit">
-                  {editingModuleSteel ? '更新' : '添加'}
-                </Button>
-              </Space>
-          </Form.Item>
-        </Form>
-      </Modal>
-      </motion.div>
+          {isOptimizing && (
+            <div style={{ marginTop: 16 }}>
+              <Progress percent={progress} status="active" />
+              <Text type="secondary">正在优化中，请稍候...</Text>
+            </div>
+          )}
+          
+          {error && (
+            <Alert
+              message="优化失败"
+              description={error}
+              type="error"
+              style={{ marginTop: 16 }}
+            />
+          )}
+        </StepCard>
+      </div>
     </PageContainer>
   );
-};
+}
 
 export default OptimizationPage;

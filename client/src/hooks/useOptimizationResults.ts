@@ -1,6 +1,5 @@
 import { useMemo, useCallback, useEffect, useState, useRef } from 'react';
 import { useOptimizationContext } from '../contexts/OptimizationContext';
-import { useNavigate } from 'react-router-dom';
 import { DesignSteel, OptimizationResult } from '../types';
 import { generateDisplayIds, regroupOptimizationResultsBySpecification } from '../utils/steelUtils';
 
@@ -464,7 +463,6 @@ export const useOptimizationResults = (
  */
 export const useAsyncOptimization = () => {
   const { setOptimizationResults } = useOptimizationContext();
-    const navigate = useNavigate();
     const [currentTask, setCurrentTask] = useState<{
     taskId: string | null;
     status: 'idle' | 'pending' | 'running' | 'completed' | 'failed' | 'cancelled';

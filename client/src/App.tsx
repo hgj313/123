@@ -17,8 +17,6 @@ import Header from './components/layout/Header';
 // 导入主题和工具
 import { lightTheme, darkTheme } from './styles/theme';
 
-import { useOptimizationContext } from './contexts/OptimizationContext';
-
 // 使用 React.lazy 进行代码分割
 const HomePage = lazy(() => import('./pages/HomePage'));
 const OptimizationPage = lazy(() => import('./pages/OptimizationPage'));
